@@ -21,31 +21,7 @@ const team = [
 
 export default function AboutPage() {
   return (
-    <div className="container py-12">
-      <h1 className="text-3xl font-bold mb-8 text-gray-900">About Stratech</h1>
-
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">Our Mission</h2>
-        <p className="text-gray-700">{/* Add your mission statement here */}</p>
-      </section>
-
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">Our Vision</h2>
-        <p className="text-gray-700">{/* Add your vision statement here */}</p>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-semibold mb-4 text-gray-900">Our Values</h2>
-        <ul className="list-disc list-inside text-gray-700">
-          <li>{/* Add value 1 */}</li>
-          <li>{/* Add value 2 */}</li>
-          <li>{/* Add value 3 */}</li>
-          {/* Add more values as needed */}
-        </ul>
-      </section>
-
-      {/* Add sections for Team, History, etc. as needed */}
-
+    <div className="bg-white">
       {/* Vision & Mission */}
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-primary-100/20">
         <div className="container py-24 sm:py-32">
