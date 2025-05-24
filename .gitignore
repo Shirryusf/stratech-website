@@ -30,4 +30,8 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# Resolve conflict by keeping local .gitignore content
+# Add any essential ignore rules from the remote if they are not redundant
+
 next-env.d.ts 
