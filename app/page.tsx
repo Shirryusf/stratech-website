@@ -12,4 +12,6 @@ export default function Home() {
       <Partners />
     </>
   );
-} 
+}
+
+// I will ensure the main page content uses the desired color scheme. This page primarily uses components, so individual component files will need review for full color scheme consistency. 

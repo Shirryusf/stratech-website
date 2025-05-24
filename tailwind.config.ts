@@ -21,6 +21,7 @@ const config: Config = {
           800: '#075985',
           900: '#0c4a6e',
         },
+        'dark-blue': '#1A1181',
       },
       fontFamily: {
         sans: ['var(--font-inter)'],
