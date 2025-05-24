@@ -4,11 +4,12 @@ import Hero from '@/components/Hero'
 import Partners from '@/components/Partners'
 import Services from '@/components/Services'
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Stratech!</h1>
-      <p>This is the homepage.</p>
-    </div>
+    <>
+      <Hero />
+      <Services />
+      <Partners />
+    </>
   );
 } 
